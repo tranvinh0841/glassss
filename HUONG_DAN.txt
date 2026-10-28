@@ -1,0 +1,17 @@
+CACH 1 - GitHub tu build (khong can cai gi tren may)
+1. Tao tai khoan va 1 repository moi tren github.com (de Private cung duoc).
+2. Giai nen file zip nay, keo tha TOAN BO noi dung (ke ca thu muc .github) vao repository.
+   Luu y: thu muc .github la thu muc an, phai co trong repository.
+3. Vao tab "Actions" > "Build APK" > "Run workflow" (hoac no tu chay sau khi upload).
+4. Doi khoang 3-6 phut, bam vao lan chay xong > phan "Artifacts" > tai GlassLauncher-apk.
+   Giai nen se ra app-release.apk.
+
+CACH 2 - Android Studio tren may tinh
+1. Mo Android Studio > Open > chon thu muc nay, doi Gradle sync xong.
+2. Menu Build > Build APK(s). APK nam o app/build/outputs/apk/release/ (hoac debug/).
+
+CAI LEN TIVI
+  adb install -r app-release.apk
+Dat lam man hinh chinh: bam nut Home tren remote, chon "Glass Launcher" > "Luon luon".
+Neu tivi khong hien hop thoai chon, vao Cai dat > Ung dung > Ung dung mac dinh > Man hinh chinh.
+Luu y: neu da go cac launcher goc thi dung go launcher dang chay cho den khi Glass Launcher chay on dinh.
